@@ -1,4 +1,8 @@
+@import url("https://fonts.google.com/specimen/Varela+Round");
 
+html{
+    font-family: "Varela Round";
+}
 
 header nav{
     background: white;
@@ -43,6 +47,22 @@ header nav ul li {
     color: white;
 }
 
+#landing-image div {
+    text-align: center;
+ 
+}
+
+#landing-image div h1{
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+#landing-image div h3{
+    text-align: center;
+    color: white;
+}
+
 #section2 {
     display: flex;
     flex-wrap: nowrap;
@@ -54,6 +74,7 @@ header nav ul li {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #00B172;
+    text-underline-offset: 10px;
 }
 
 #section2 div{
@@ -86,6 +107,7 @@ header nav ul li {
     padding-left: 50px;
     text-decoration: underline;
     text-decoration-color: white;
+    text-underline-offset: 10px;
 }
 
 #section3 div{
@@ -102,6 +124,10 @@ header nav ul li {
     flex-wrap: wrap;
     flex-direction: column; 
     align-items: center;
+}
+
+#section3 div #info{
+    align-items: flex-start;
 }
 
 #screenshot {
