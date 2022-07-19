@@ -4,7 +4,7 @@ header nav{
     background: white;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -16,7 +16,7 @@ header nav img{
 header nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:right;
 }
 
 header nav ul li {
@@ -50,6 +50,12 @@ header nav ul li {
     justify-items: center;
 }
 
+#section2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
 #section2 div{
     display: flex;
     flex-wrap: nowrap;
@@ -58,14 +64,14 @@ header nav ul li {
 }
 
 #section2 div img{
-    width: 10%;
+    width: 25%;
 }
 
 #section2 div div{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 #section3 {
@@ -76,18 +82,26 @@ header nav ul li {
     flex-wrap: nowrap;
 }
 
+#section3 h2 {
+    padding-left: 50px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 #section3 div{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-items: center;
+    align-items: center;
 }
 
 #section3 div div{
+    padding-left: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex: row;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
 }
 
 #screenshot {
@@ -95,5 +109,5 @@ header nav ul li {
 }
 
 #logowhite {
-    width: 40%;
+    width: 20%;
 }
