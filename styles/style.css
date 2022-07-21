@@ -1,8 +1,151 @@
-/*
-Colors:
+@import url("https://fonts.google.com/specimen/Varela+Round");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+html{
+    font-family: "Varela Round";
+}
 
-*/
+header nav{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img{
+    width: 15%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
+
+header nav ul li {
+    padding: 5%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#landing-image{
+    background-image: url("../images/landing.jpg");
+    width: 100%;
+    height: 70vh;
+    background-size: 100% 100%;
+}
+
+#landing-image h1{
+    text-align: center;
+    color: white;
+    align-items: center;
+    line-height: 35vh;
+}
+
+#landing-image h3{
+    text-align: center;
+    color: white;
+}
+
+#landing-image div {
+    text-align: center;
+ 
+}
+
+#landing-image div h1{
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+#landing-image div h3{
+    text-align: center;
+    color: white;
+}
+
+#section2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#section2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 10px;
+}
+
+#section2 div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section2 div img{
+    width: 25%;
+}
+
+#section2 div div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2 div h4{
+    color: #00B172;
+}
+
+#section3 {
+    display: flex;
+    background-color: #00B172;
+    color: white;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#section3 h2 {
+    padding-left: 50px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 10px;
+}
+
+#section3 div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+#section3 div div{
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#section3 div #info{
+    align-items: flex-start;
+}
+
+#screenshot {
+    width: 80%;
+}
+
+#logowhite {
+    width: 20%;
+}
